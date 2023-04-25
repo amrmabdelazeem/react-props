@@ -6,6 +6,7 @@ import Heading from "./Header.jsx";
 function createCard(contact){
   return (
     <Card 
+    id={contact.id}
     key={contact.id}
     name={contact.name}
     img={contact.imgURL}
